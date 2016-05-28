@@ -1,4 +1,4 @@
-In the current file is listed:
+In the current file are listed:
 	
 	- A brief Description of the tool
 	- Dependencies
