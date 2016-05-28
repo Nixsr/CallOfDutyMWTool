@@ -8,12 +8,10 @@ codMWRequest = Request('http://www.gametracker.com/search/cod4/600/?searchipp=50
 codMWData = urlopen(codMWRequest).read()
 
 
-#Convert the html in BeautifulSoup object to scrape it
-
+#Convertion of the html code into BeautifulSoup object for the scraping phases
 bsObj = BeautifulSoup(codMWData, 'html.parser')
 
-#print(bsObj)
-#Get Rank
+#Get Server Rank
 def rank(bsObj):
     ranks = []
     for rank in bsObj.find("table", {"class":"table_lst table_lst_srs"}).findAll("tr")[1:-1]:
@@ -29,7 +27,7 @@ def serverName(bsObj):
         serverList.append(name.get_text().replace("\t", '').replace("\n", ''))
     return serverList
 
-#Get Players
+#Get Players/FreeSlots
 def playersCounts(bsObj):
     Players = []
     for player in bsObj.find("table", {"class":"table_lst table_lst_srs"}).findAll("tr")[1:-1]:
@@ -53,7 +51,7 @@ def getIpPort(bsObj):
         ipPorts.append(ipPortField.get_text().replace("\n", ''))
     return ipPorts
 
-#Get serverMap
+#Get ServerMap
 def serverMap(bsObj):
     serverMaps = []
     for ipPort in bsObj.find("table", {"class":"table_lst table_lst_srs"}).findAll("tr")[1:-1]:
@@ -61,6 +59,7 @@ def serverMap(bsObj):
         serverMaps.append(servermapField.get_text().replace("\n", '').replace("\t", '').replace("mp_", ""))
     return serverMaps
 
+#The current block is for calling the previous functions
 Names = serverName(bsObj)
 Players = playersCounts(bsObj)
 #Locations = serverLocation(bsObj)
@@ -69,7 +68,6 @@ ServerMaps = serverMap(bsObj)
 Ranks = rank(bsObj)
 
 #IP
-
 #print(len(Names))
 #print(len(Players))
 #print(len(Locations))
@@ -93,7 +91,6 @@ Ranks = rank(bsObj)
 
 print("ID".ljust(7, ' ') + "Players/slots".ljust(20, ' ') + "IP:PORT".ljust(38, ' ') + "Server Map".ljust(30, ' ') + "Server Name".ljust(110, ' ') + "\n")
 for n in range(len(Ranks)):
-    #print(Ranks[n] + "\t\t" + Players[n] + "\t\t connect " + IpPorts[n] + "\t\t" + ServerMaps[n] + "\t\t\n___________________________________________________________________________________")
     print(Ranks[n].ljust(7, ' ') + Players[n].ljust(20, ' ') + "connect " + IpPorts[n].ljust(30, ' ') + ServerMaps[n].ljust(30, ' ') + Names[n].ljust(110, ' ') + "\t\t\n")
 
 ID = input('Scegli l\'ID di un server (dalla prima colonna sulla sx):\n')
@@ -103,7 +100,6 @@ if ID in Ranks:
     idPosition = int(Ranks.index(ID))
     print(idPosition)
     print(IpPorts[idPosition])
-    #subprocess.call(['C:\Windows\System32\cmd.exe', 'D:\Software\Proprietary\Steam\steamapps\common\Call of Duty 4\iw3mp.exe +connect '+ IpPorts[idPosition]])
     subprocess.call(['D:\Software\Proprietary\Steam\steamapps\common\Call of Duty 4\iw3mp.exe', ' +connect '+ IpPorts[idPosition]])
 
 print(ID)
