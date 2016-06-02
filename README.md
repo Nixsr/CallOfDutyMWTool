@@ -1,8 +1,8 @@
 <h1>In the current file are listed:</h1>
 	
-	- A brief Description of the tool
-	- Dependencies
-	- Installation instructions
+	1. A brief Description of the tool
+	2. Dependencies
+	3. Installation instructions
 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=LhuIjNSg7Gg
