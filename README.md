@@ -25,10 +25,13 @@ In order to execute the script correctly you should install the following Softwa
 
 Steps:
 <b>Installation:</b>
+
 1. Clone/Download the Tool
+
 2. Copy and paste the contents of the repository in the main directory of the game
 
 <b>Execution:</b>
+
 1. (On Windows) Double click on the 'CallOfDutyModernWarfareTool.bat' file
 
 <h3>4) Tool screenshot </h3>
