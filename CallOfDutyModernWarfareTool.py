@@ -93,7 +93,7 @@ print("ID".ljust(7, ' ') + "Players/slots".ljust(20, ' ') + "IP:PORT".ljust(38, 
 for n in range(len(Ranks)):
     print(Ranks[n].ljust(7, ' ') + Players[n].ljust(20, ' ') + "connect " + IpPorts[n].ljust(30, ' ') + ServerMaps[n].ljust(30, ' ') + Names[n].ljust(110, ' ') + "\t\t\n")
 
-ID = input('Scegli l\'ID di un server (dalla prima colonna sulla sx):\n')
+ID = input('Write the ID of the server where you want to get in:\n')
 
 if ID in Ranks:
     idPosition = 0
