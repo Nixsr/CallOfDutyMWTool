@@ -9,7 +9,7 @@ In the current file are listed:
 
 <h3>1) Description of the tool</h3>
 
-The tool simply search the first 50 servers of the game call of duty modern warfare in a range of 1000km ( 600miles ) getting the data from the gametracker website ( http://www.gametracker.com/ ) and it prints the result in a table ( here follows the structure )
+The tool simply search the first 50 servers of the game call of duty modern warfare in a range of 1000km ( 600miles ) getting the data from the gametracker website ( http://www.gametracker.com/ ) and it prints the results in a table ( here follows the structure )
 
 |ID	| Players/slots |IP:PORT		          |Server Map       |Server Name						      	      |
 |:-------|:-------------|:--------------------------------|:----------------|:------------------------------------------------------------------------|
