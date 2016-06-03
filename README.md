@@ -24,6 +24,7 @@ In order to execute the script correctly you should install the following Softwa
 <h3>3) Installation and execution instructions</h3>
 
 Steps:
+
 <b>Installation:</b>
 
 1. Clone/Download the Tool
