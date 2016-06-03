@@ -35,6 +35,12 @@ Steps:
 
 1. (On Windows) Double click on the 'CallOfDutyModernWarfareTool.bat' file
 
+<b>Video guide</b>
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=oSYrFhF9T7M
+" target="_blank"><img src="http://img.youtube.com/vi/oSYrFhF9T7M/0.jpg" 
+alt="Installation and Execution Instruction" width="240" height="180" border="10" /></a>
+
 <h3>4) Tool screenshot </h3>
 
 ![alt text][screenshot]
