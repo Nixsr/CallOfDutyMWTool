@@ -18,8 +18,8 @@ The tool simply search all the call of duty modern warfare servers in a range of
 <h3>2) Dependencies</h3>
 In order to execute the script correctly you should install the following Software/Packages
 
--Python version 3 or higher
-..* BeautifulSoup Library version 4
+- Python version 3 or higher
+- BeautifulSoup Library version 4
 
 <h3>3) Installation and execution instructions</h3>
 
@@ -29,7 +29,7 @@ Steps:
 2. Copy and paste the contents of the repository in the main directory of the game
 
 <b>Execution:</b>
-3. (On Windows) Double click on the 'CallOfDutyModernWarfareTool.bat' file
+1. (On Windows) Double click on the 'CallOfDutyModernWarfareTool.bat' file
 
 <h3>4) Tool screenshot </h3>
 
