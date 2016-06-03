@@ -7,7 +7,7 @@ In the current file are listed:
 	4. Tool screenshot
 
 
-<b>1) Description of the tool<b>
+<b>1) Description of the tool</b>
 
 The tool simply search all the call of duty modern warfare servers in a range of 1000km ( 600miles ) getting the data from the gametracker website ( [link] http://www.gametracker.com/ ) and it prints the result in a table ( here follows the structure ):
 
@@ -15,11 +15,7 @@ The tool simply search all the call of duty modern warfare servers in a range of
 |:-------|:-------------|:--------------------------------|:----------------|:------------------------------------------------------------------------|
 |8|23/78|connect 5.12.234.42:28960|Crash|[Killing4Fun.NL]|
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+
 
 <center><a href="http://www.youtube.com/watch?feature=player_embedded&v=LhuIjNSg7Gg
 " target="_blank"><img src="http://img.youtube.com/vi/LhuIjNSg7Gg/0.jpg"
