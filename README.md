@@ -14,4 +14,4 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ![alt text][screenshot]
 
-[screenshot]: 
+[screenshot]: https://github.com/Nixsr/CallOfDutyMWTool/blob/master/images/CallOfDutyMWTool.jpg "Tool's screenshot_00"
