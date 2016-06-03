@@ -9,14 +9,14 @@ In the current file are listed:
 
 <h3>1) Description of the tool</h3>
 
-The tool simply search all the call of duty modern warfare servers in a range of 1000km ( 600miles ) getting the data from the gametracker website ( http://www.gametracker.com/ ) and it prints the result in a table ( here follows the structure ):
+The tool simply search all the call of duty modern warfare servers in a range of 1000km ( 600miles ) getting the data from the gametracker website ( http://www.gametracker.com/ ) and it prints the result in a table ( here follows the structure )
 
 |ID	| Players/slots |IP:PORT		          |Server Map       |Server Name						      	      |
 |:-------|:-------------|:--------------------------------|:----------------|:------------------------------------------------------------------------|
 |8|23/78|connect 5.12.234.42:28960|Crash|[Killing4Fun.NL]|
 
 <h3>2) Dependencies</h3>
-In order to execute the script correctly you should install the following Software/Packages:
+In order to execute the script correctly you should install the following Software/Packages
 
 -Python version 3 or higher
 ..* BeautifulSoup Library version 4
