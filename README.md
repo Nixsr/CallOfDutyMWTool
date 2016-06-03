@@ -11,9 +11,9 @@ In the current file are listed:
 
 The tool simply search all the call of duty modern warfare servers in a range of 1000km ( 600miles ) getting the data from the gametracker website ( [link] http://www.gametracker.com/ ) and it prints the result in a table ( here follows the structure ):
 
-	|ID	| Players/slots |IP:PORT		          |Server Map       |Server Name						      	      |
-	|:-------|:-------------|:--------------------------------|:----------------|:------------------------------------------------------------------------|
-	|8|23/78|connect 5.12.234.42:28960|Crash|[Killing4Fun.NL]|
+|ID	| Players/slots |IP:PORT		          |Server Map       |Server Name						      	      |
+|:-------|:-------------|:--------------------------------|:----------------|:------------------------------------------------------------------------|
+|8|23/78|connect 5.12.234.42:28960|Crash|[Killing4Fun.NL]|
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
